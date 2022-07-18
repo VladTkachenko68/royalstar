@@ -35538,59 +35538,53 @@
       const nf = [
           {
             id: 0,
-            name: "Pokedex",
-            description: "A collection and description of all 898 Pokémon",
-            image: "images/projects/pokedex.jpg",
-            tags: ["javascript", "api", "html", "css"],
-            liveview: "https://js-pokedex-virid.vercel.app/",
-            github: "https://github.com/davidhckh/pokedex",
-            alt: "pokedex design detailed design portfolio project",
+            name: "Neurality",
+            description: "8,888 unique mekas who need drivers.",
+            image: "images/projects/pokedex.png",
+            tags: ["nextjs", "SmartContract", "Soldity", "Web3"],
+            liveview: "https://62b22b65f868f02d80b416c6--statuesque-melba-bd0e5b.netlify.app/",
+            github: "https://github.com/talented0312/NFT_Minting_Site",
+            alt: "Neurality design detailed design portfolio project",
           },
           {
             id: 1,
-            name: "Join",
-            description: "Group managment tool to optimize workflows",
+            name: "Jasper",
+            description: "Webflow Optimiztion to optimize workflows",
             image: "images/projects/join.jpg",
             tags: ["javascript", "backend", "html", "css"],
-            liveview: "https://join.david-hckh.com/",
-            github: "https://github.com/davidhckh/join",
-            alt: "Group management tool to optimize workflows portfolio project",
+            liveview: "https://www.jasper.ai/",
+            alt: "Webflow portfolio project",
           },
           {
             id: 2,
-            name: "Sharkie",
-            description: "JavaScript based jump-and-run game",
-            image: "images/projects/sharkie.jpg",
-            tags: ["javascript", "html", "css"],
-            liveview: "https://sharkie-game.vercel.app/",
-            github: "https://github.com/davidhckh/sharkie-game",
-            alt: "javascript based jump-and-run game portfolio project",
-          },
-          {
-            id: 3,
-            name: "Portfolio 2022",
-            description:
-              'A case study for this project is currently being written. Follow me on <a tabindex="-1" href="https://twitter.com/DavidHckh" target="_blank">Twitter</a> to stay up to date.',
-            image: "images/projects/portfolio.jpg",
-            tags: ["webgl", "javascript", "html", "css"],
-            twitter: "https://twitter.com/DavidHckh",
-            alt: "david heckhoff portfolio project 2022 threejs blender 3d design",
-            bannerIcons: [
-              {
-                src: "images/cssda-icon.png",
-                alt: "cssda icon site of the day",
-              },
-            ],
-          },
-          {
-            id: 4,
-            name: "Jelly Battle",
+            name: "Domain Market Place",
             description:
               "Play as Jelly and fight against three other Jellys in a multiplayer free-for-all game",
             image: "images/projects/jelly-battle.jpg",
-            tags: ["react", "webgl", "javascript", "html", "css"],
-            twitter: "https://twitter.com/DavidHckh",
-            alt: "work in progress portfolio project jelly battle strategy game flash multiplayer",
+            tags: ["react", "django", "Python", "TailwindCSS", "AWS"],
+            liveview: "https://e1bbe42a.nerona.pages.dev/",
+            github: "https://github.com/taleted0312",
+            alt: "work in progress portfolio project Domain MarketPlace for Clients",
+          },
+          {
+            id: 3,
+            name: "AI/ImageProcessing",
+            description: "Ergonomic Risk & Task Assessment Solution",
+            image: "images/projects/machine.jpg",
+            tags: ["nextjs", "Python", "DNS", "SciPy", "scikit"],
+            liveview: "https://soteranalytics.com/",
+            github: "https://github.com/talented0312/VisualHumanActivity",
+            alt: "SoterAnalytics based MachineLearning Python Project Website",
+          },
+          {
+            id: 4,
+            name: "livesteaming",
+            description: "JavaScript based jump-and-run game",
+            image: "images/projects/livesteaming.png",
+            tags: ["ReactNative", "ARintegration", "pushnotifications"],
+            liveview: "https://itunes.apple.com/us/app/bigo-live-live-broadcasting/id1077137248?mt=8",
+            github: "https://github.com/",
+            alt: "NDA signed Dating Website for girl",
           },
         ],
         rf = {
@@ -35600,6 +35594,34 @@
             '<div class="work-item-tag" style="background: #FFB800;">JavaScript</div>',
           react:
             '<div class="work-item-tag" style="background: #21BAEB;">ReactJS</div>',
+          nextjs:
+            '<div class="work-item-tag" style="background: #FF7F27;">Next.js</div>',
+          django:
+            '<div class="work-item-tag" style="background: #CF7C89;">Django</div>',
+          Python:
+            '<div class="work-item-tag" style="background: #60C5F1;">Python</div>',
+          DNS:
+            '<div class="work-item-tag" style="background: #8389E0;">DNS</div>',
+          scikit:
+            '<div class="work-item-tag" style="background: #DAAADB;">scikit</div>',
+          SciPy:
+            '<div class="work-item-tag" style="background: #FFFA99;">SciPy</div>',
+          TailwindCSS:
+            '<div class="work-item-tag" style="background: #98E0AD;">Tailwind CSS</div>',
+          AWS:
+            '<div class="work-item-tag" style="background: #AAAEEB;">AWS</div>',
+          ReactNative:
+            '<div class="work-item-tag" style="background: #B84A5B;">React Native</div>',
+          ARintegration:
+            '<div class="work-item-tag" style="background: #D3D5F5;">AR integration</div>',
+          pushnotifications:
+            '<div class="work-item-tag" style="background: #FBCFD0;">push notifications</div>',
+          SmartContract:
+            '<div class="work-item-tag" style="background: #DAAADB;">Smart Contract</div>',
+          Web3:
+            '<div class="work-item-tag" style="background: #DAAADB;">Web3.js</div>',
+          Soldity:
+            '<div class="work-item-tag" style="background: #C8EBFA;">Soldity</div>',
           webgl:
             '<div class="work-item-tag" style="background: #5A69EC;">WebGL</div>',
           api: '<div class="work-item-tag" style="background: #CA49F8;">API</div>',
@@ -35710,11 +35732,11 @@
         }
       }
       const af = [
-        { name: "WebGL", width: "60%" },
-        { name: "ReactJS", width: "65%" },
-        { name: "JavaScript", width: "85%" },
-        { name: "HTML + CSS", width: "90%" },
-        { name: "3D Modelling", width: "60%" },
+        { name: "Front End", width: "80%" },
+        { name: "Back End", width: "70%" },
+        { name: "BlockChain", width: "65%" },
+        { name: "WebGL", width: "90%" },
+        { name: "MachineLearning", width: "60%" },
       ];
       class of {
         domElements = {
